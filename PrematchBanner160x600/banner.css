@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Bigelow+Rules|Pathway+Gothic+One);
+@import url(animations.css);
+
+.banner {
+	width: 160px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	/*background: url('img/SoccerField.png');*/
+	background-color: black;
+	/*border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;*/
+	overflow: hidden;
+}
+
+.imgAway, .imgHome, .draw {
+	position: absolute;
+	top: 50px;
+	height: 370px;
+}
+
+.draw {
+	font-size: 370px;
+	color: #ffd400;
+	font-family: 'Pathway Gothic One', Helvetica, 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+}
+
+
+.banner .banner-logo {
+	width: 158px;
+	height: 33px;
+	
+	background: url('img/efbet.png') left bottom no-repeat;
+	background-color: black;
+	/*-webkit-animation:  logo-loop 2s ease 2s infinite;
+	-moz-animation: logo-loop 2s ease 2s infinite;
+	-o-animation: logo-loop 2s ease 2s infinite;
+	animation:  logo-loop 2s ease 2s infinite;*/
+}
+
+.banner-link {
+	position: absolute;
+	width: 160px;
+	height: 600px;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+}
+
+.banner h3 {
+	color: #ffd400;
+	font-family: 'Pathway Gothic One', Helvetica, 'Arial Narrow', Arial, sans-serif;
+	top: 420px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+}
+
+.banner p {
+	color: #ffd400;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-weight: bold;
+
+}
+
+
+[class^="banner-logo"] {
+	position: absolute;
+	margin: 0;
+	z-index: 200;
+}
+
+[class^="txt"] {
+	position: absolute;
+	margin: 0;
+}
+
+[class^="txt"] {
+	z-index: 200;
+}
+
+.txt-heading01 {
+	left: -300px;
+	width: 160px;
+	-webkit-animation: heading01-on 1s forwards, heading01-loop 18s ease 1s infinite;
+	-moz-animation: heading01-on 1s forwards, heading01-loop 18s ease 1s infinite;
+	-o-animation: heading01-on 1s forwards, heading01-loop 18s ease 1s infinite;
+	animation: heading01-on 1s forwards, heading01-loop 18s ease 1s infinite;
+}
+
+
+
+.txt-heading02 {
+	left: -300px;
+	width: 160px;
+	-webkit-animation: heading02-loop 18s ease 1s infinite;
+	-moz-animation: heading02-loop 18s ease 1s infinite;
+	-o-animation: heading02-loop 18s ease 1s infinite;
+	animation: heading02-loop 18s ease 1s infinite;
+}
+
+.txt-heading03 {
+	left: -300px;
+	width: 160px;
+	-webkit-animation: heading03-loop 18s ease 1s infinite;
+	-moz-animation: heading03-loop 18s ease 1s infinite;
+	-o-animation: heading03-loop 18s ease 1s infinite;
+	animation: heading03-loop 18s ease 1s infinite;
+}
+
+
+.txt01, .txt02, .txt03 { font-size: 80px; text-align: center; top: 490px;}
+
+.txt01 {
+	left: 300px;
+	
+	width: 160px;
+	-webkit-animation: txt01-on .5s ease .25s forwards, txt01-loop 18s ease 1s infinite;
+	-moz-animation: txt01-on .5s ease .25s forwards, txt01-loop 18s ease 1s infinite;
+	-o-animation: txt01-on .5s ease .25s forwards, txt01-loop 18s ease 1s infinite;
+	animation: txt01-on .5s ease .25s forwards, txt01-loop 18s ease 1s infinite;
+}
+
+.txt02 {
+	left: -200px;
+	
+	width: 160px;
+	-webkit-animation: txt02-on .5s ease .25s forwards, txt02-loop 18s ease 1s infinite;
+	animation: txt02-on .5s ease .25s forwards, txt02-loop 18s ease 1s infinite;
+}
+
+.txt03 {
+	left: -200px;
+	
+	width: 160px;
+	-webkit-animation: txt03-on .5s ease .25s forwards, txt03-loop 18s ease 1s infinite;
+	animation: txt03-on .5s ease .25s forwards, txt03-loop 18s ease 1s infinite;
+}

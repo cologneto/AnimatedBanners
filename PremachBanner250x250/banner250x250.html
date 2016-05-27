@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Efbet</title>
+    <meta charset="utf-8" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 250px;
+            width: 250px;
+        }
+
+        div {
+            /*margin: 4px;*/
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        .container-fluid {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+            .container-fluid > div:nth-child(2n+1) {
+                margin-bottom: 8px;
+            }
+
+        #logo {
+            padding: 9px 0;
+        }
+    </style>
+</head>
+<body onload="ajaxCall2();">
+    <div class="container-fluid text-center" style="width:250px;height:250px;font-size: 20px;font-weight: bold;font-family: verdana;color:#ffdd00;">
+        <div id="logo" class="row">
+            <div style="background-image: url(../../Images/efbetLogoNew_03.png);width: 149px; height:38px;margin: auto;"></div>
+        </div>
+        <div id="home" class="row">Манчестър Юн</div>
+        <div id="selection1" class="row">1.85</div>
+        <div id="draw" class="row">Равен</div>
+        <div id="selection2" class="row">2.50</div>
+        <div id="away" class="row">Манчестър Сити</div>
+        <div id="selection3" class="row">1.85</div>
+    </div>
+</body>
+</html>

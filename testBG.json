@@ -1,0 +1,362 @@
+[
+  {
+    "Id": 1733,
+    "Sport": "Футбол",
+    "MatchName": "Севиля - Шахтьор Донецк",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T20:05:00",
+    "Market": "Краен изход",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T22:05:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Севиля",
+        "SelectionValue": 1.65
+      },
+      {
+        "SelectionName": "Равен",
+        "SelectionValue": 4.3
+      },
+      {
+        "SelectionName": "Шахтьор Донецк",
+        "SelectionValue": 5.5
+      }
+    ]
+  },
+  {
+    "Id": 1734,
+    "Sport": "Футбол",
+    "MatchName": "Севиля - Шахтьор Донецк",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T20:05:00",
+    "Market": "Брой голове 2.5",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T22:05:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Под 2.5",
+        "SelectionValue": 2.4
+      },
+      {
+        "SelectionName": "Над 2.5",
+        "SelectionValue": 1.65
+      }
+    ]
+  },
+  {
+    "Id": 1735,
+    "Sport": "Футбол",
+    "MatchName": "Севиля - Шахтьор Донецк",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T20:05:00",
+    "Market": "Двата отбора да отбележат гол в мача",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T22:05:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Да",
+        "SelectionValue": 1.7
+      },
+      {
+        "SelectionName": "Не",
+        "SelectionValue": 2.25
+      }
+    ]
+  },
+  {
+    "Id": 1736,
+    "Sport": "Футбол",
+    "MatchName": "Севиля - Шахтьор Донецк",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T20:05:00",
+    "Market": "Първо полувреме - Изход",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T22:05:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Севиля",
+        "SelectionValue": 2.2
+      },
+      {
+        "SelectionName": "Равен",
+        "SelectionValue": 2.5
+      },
+      {
+        "SelectionName": "Шахтьор Донецк",
+        "SelectionValue": 5.25
+      }
+    ]
+  },
+  {
+    "Id": 1737,
+    "Sport": "Футбол",
+    "MatchName": "Ливърпул - Виляреал",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T20:05:00",
+    "Market": "Краен изход",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T22:05:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Ливърпул",
+        "SelectionValue": 1.75
+      },
+      {
+        "SelectionName": "Равен",
+        "SelectionValue": 3.8
+      },
+      {
+        "SelectionName": "Виляреал",
+        "SelectionValue": 5.25
+      }
+    ]
+  },
+  {
+    "Id": 1738,
+    "Sport": "Футбол",
+    "MatchName": "Ливърпул - Виляреал",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T20:05:00",
+    "Market": "Брой голове 2.5",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T22:05:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Под 2.5",
+        "SelectionValue": 1.8
+      },
+      {
+        "SelectionName": "Над 2.5",
+        "SelectionValue": 2.15
+      }
+    ]
+  },
+  {
+    "Id": 1739,
+    "Sport": "Футбол",
+    "MatchName": "Ливърпул - Виляреал",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T20:05:00",
+    "Market": "Двата отбора да отбележат гол в мача",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T22:05:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Да",
+        "SelectionValue": 2.1
+      },
+      {
+        "SelectionName": "Не",
+        "SelectionValue": 1.8
+      }
+    ]
+  },
+  {
+    "Id": 1740,
+    "Sport": "Футбол",
+    "MatchName": "Ливърпул - Виляреал",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T20:05:00",
+    "Market": "Първо полувреме - Изход",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T22:05:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Ливърпул",
+        "SelectionValue": 2.4
+      },
+      {
+        "SelectionName": "Равен",
+        "SelectionValue": 2.2
+      },
+      {
+        "SelectionName": "Виляреал",
+        "SelectionValue": 5.75
+      }
+    ]
+  },
+  {
+    "Id": 1741,
+    "Sport": "Футбол",
+    "MatchName": "Фенербахче - Коняспор",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T17:15:00",
+    "Market": "Краен изход",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T19:15:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Фенербахче",
+        "SelectionValue": 1.7
+      },
+      {
+        "SelectionName": "Равен",
+        "SelectionValue": 4.05
+      },
+      {
+        "SelectionName": "Коняспор",
+        "SelectionValue": 5.0
+      }
+    ]
+  },
+  {
+    "Id": 1742,
+    "Sport": "Футбол",
+    "MatchName": "Фенербахче - Коняспор",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T17:15:00",
+    "Market": "Брой голове 2.5",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T19:15:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Под 2.5",
+        "SelectionValue": 2.1
+      },
+      {
+        "SelectionName": "Над 2.5",
+        "SelectionValue": 1.8
+      }
+    ]
+  },
+  {
+    "Id": 1743,
+    "Sport": "Футбол",
+    "MatchName": "Фенербахче - Коняспор",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T17:15:00",
+    "Market": "Двата отбора да отбележат гол в мача",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T19:15:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Да",
+        "SelectionValue": 1.8
+      },
+      {
+        "SelectionName": "Не",
+        "SelectionValue": 2.05
+      }
+    ]
+  },
+  {
+    "Id": 1744,
+    "Sport": "Футбол",
+    "MatchName": "Фенербахче - Коняспор",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T17:15:00",
+    "Market": "Първо полувреме - Изход",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-05T19:15:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Фенербахче",
+        "SelectionValue": 2.3
+      },
+      {
+        "SelectionName": "Равен",
+        "SelectionValue": 2.35
+      },
+      {
+        "SelectionName": "Коняспор",
+        "SelectionValue": 5.25
+      }
+    ]
+  },
+  {
+    "Id": 1745,
+    "Sport": "Футбол",
+    "MatchName": "Росарио Сентрал - Гремио РС",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T23:15:00",
+    "Market": "Краен изход",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-06T01:15:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "КА Росарио Сентрал",
+        "SelectionValue": 1.9
+      },
+      {
+        "SelectionName": "Равен",
+        "SelectionValue": 3.2
+      },
+      {
+        "SelectionName": "Гремио",
+        "SelectionValue": 4.65
+      }
+    ]
+  },
+  {
+    "Id": 1746,
+    "Sport": "Футбол",
+    "MatchName": "Росарио Сентрал - Гремио РС",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T23:15:00",
+    "Market": "Брой голове 2.5",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-06T01:15:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Под 2.5",
+        "SelectionValue": 1.5
+      },
+      {
+        "SelectionName": "Над 2.5",
+        "SelectionValue": 2.6
+      },
+      {
+        "SelectionName": "Под 2.5",
+        "SelectionValue": 1.5
+      },
+      {
+        "SelectionName": "Над 2.5",
+        "SelectionValue": 2.6
+      }
+    ]
+  },
+  {
+    "Id": 1747,
+    "Sport": "Футбол",
+    "MatchName": "Росарио Сентрал - Гремио РС",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T23:15:00",
+    "Market": "Двата отбора да отбележат гол в мача",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-06T01:15:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "Да",
+        "SelectionValue": 2.3
+      },
+      {
+        "SelectionName": "Не",
+        "SelectionValue": 1.6
+      }
+    ]
+  },
+  {
+    "Id": 1748,
+    "Sport": "Футбол",
+    "MatchName": "Росарио Сентрал - Гремио РС",
+    "MatchId": null,
+    "MatchTime": "2016-05-05T23:15:00",
+    "Market": "Първо полувреме - Изход",
+    "Language": "BG",
+    "MatchDisplayDate": "2016-05-06T01:15:00",
+    "SelectionListVM": [
+      {
+        "SelectionName": "КА Росарио Сентрал",
+        "SelectionValue": 2.65
+      },
+      {
+        "SelectionName": "Равен",
+        "SelectionValue": 1.95
+      },
+      {
+        "SelectionName": "Гремио",
+        "SelectionValue": 5.5
+      }
+    ]
+  }
+]

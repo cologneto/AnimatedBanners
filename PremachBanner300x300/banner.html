@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Animated Banner</title>
+		<link rel="stylesheet" href="banner.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<script>
+		$(document).ready(function($) {
+			$.get('result0.xml', function(data) {
+				$(data).find('Sport').each(function() {
+					console.log($(this).attr("id"));
+					$('.xml').text($(this).attr("id"));
+				});
+			});
+		});
+	</script>
+	<body>
+		<div class="banner">
+			<div class="banner-logo"></div>
+			<a href="#" class="banner-link"></a>
+			<!-- <img src="img/snow-back.png" width="900" height="600" class="img-snow01"> -->
+			<!-- <img src="img/wayne_rooney_manchester_united_2014_15_by_hamidbeckham-d8knvkg.png" width="335" height="1000" class="img01"> -->
+			<!-- <img src="img/snow-front.png" width="900" height="600" class="img-snow02"> -->
+			<h3 class="txt-heading01">Leicester City</h3>
+			<h3 class="txt-heading02">Manchester United </h3>
+			<h3 class="txt-heading03">Draw</h3>
+			<p class="txt01">3.30</p>
+			<p class="txt02">4.50</p>
+			<p class="txt03">2.35</p>
+			<div class="xml"></div>
+		</div><!-- banner -->
+	</body>
+</html>

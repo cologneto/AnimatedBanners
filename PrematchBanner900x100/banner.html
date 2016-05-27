@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Animated Banner</title>
+		<link rel="stylesheet" href="banner.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<script>
+		$(document).ready(function($) {
+			$.get('result0.xml', function(data) {
+				$(data).find('Sport').each(function() {
+					console.log($(this).attr("id"));
+					$('.xml').text($(this).attr("id"));
+				});
+			});
+		});
+	</script>
+	<body>
+		<div class="banner">
+			<div class="banner-logo"></div>
+			<a href="https://www.efbet.com/BG/541/Homepage" class="banner-link"></a>
+			<div class="register-now"></div>
+			<div class="txt-heading01">
+				<div class="home">Leicester City</div> 
+				<div class="draw">X</div>
+				<div class="away">Manchester United</div> 
+			</div>
+			<div class="txt-heading02">
+				<div class="home">Newcastle</div> 
+				<div class="draw">X</div>
+				<div class="away">Mancester City</div> 
+			</div>
+			<div class="txt-heading03">
+				<div class="home">Arsenal</div> 
+				<div class="draw">X</div>
+				<div class="away">Liverpool</div> 
+			</div>
+			<div class="txt01">
+				<div class="home">3.30</div> 
+				<div class="draw">2.35</div>
+				<div class="away">4.50</div>  
+			</div>
+			<div class="txt02">
+				<div class="home">1</div> 
+				<div class="draw">2</div>
+				<div class="away">3</div>
+			</div>
+			<div class="txt03">
+				<div class="home">4</div> 
+				<div class="draw">5</div>
+				<div class="away">6</div>
+			</div>
+			<div class="xml"></div>
+		</div><!-- banner -->
+	</body>
+</html>
